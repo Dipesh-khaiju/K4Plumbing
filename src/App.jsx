@@ -1,8 +1,12 @@
 import React from 'react'
+import Home from "./pages/Home.jsx"
 
 const App = () => {
   return (
-    <div className='text-red-500'>App</div>
+   
+    <>
+     <Home />
+    </>
   )
 }
 
