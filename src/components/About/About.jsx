@@ -6,28 +6,22 @@ import leftImg2 from "../../assets/images/p3.jpg"
 
 const About = () => {
   return (
-    <div className="flex mt-48 ">
-   <div className="w-1/2 relative flex flex-col justify-end p-16">
- 
-  <img className="h-[500px] w-[500px] self-end border-8 border-white" src={leftImg1} alt="Water Treatment Process" />
+    <div className="flex flex-col lg:flex-row lg:mt-48">
+      <div className="lg:w-1/2 relative flex flex-col justify-end p-8 md:p-16">
+        <img className="h-auto md:h-[500px] w-full border-8 border-white" src={leftImg1} alt="Water Treatment Process" />
+        <div className="absolute right-8 bottom-2 hidden md:block">
+          <img className="h-[200px] lg:h-auto w-[300px] border-8 border-white" src={leftImg2} alt="Cutting Wood" />
+        </div>
+      </div>
 
-  <div className="absolute right-8 bottom-2 ">
-    <img className="h-[200px] w-[300px] border-8 border-white" src={leftImg2} alt="Cutting Wood" />
-  </div>
-</div>
+      <div className="lg:w-1/2 p-4 relative">
+        <div className="absolute inset-0" style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          opacity: 0.1,
+        }}></div>
 
-      <div className="w-1/2 p-4 relative">
-        {/* Background image with opacity */}
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: `url(${backgroundImage})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            opacity: 0.1, // Adjust opacity here
-          }}
-        ></div>
-        {/* Content for the right half */}
         <div className="relative z-10">
           <div className="relative">
             <h2 className="text-2xl text-blue-400">About Our Company</h2>
