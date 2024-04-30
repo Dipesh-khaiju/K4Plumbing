@@ -42,7 +42,7 @@ const Navbar = () => {
  
     <>
     <div  className="flex justify-between items-center w-full h-20  px-4  font-serif bg-transparent">
-        <h1 className="text-4xl text-[#f9fafb]">K4Plumbing</h1>
+        <h1 className="text-4xl text-[#f9fafb]"> K4Plumbing</h1>
 
         <ul className=" hidden  sm:flex">
           {links.map(({ id, name,target}) => (
