@@ -22,7 +22,7 @@ const Projects = () => {
       <div className="hero-container flex flex-wrap justify-center">
         {/* Mapping over the images and create a card for each */}
         {[p4, p5, p6, p7].map((image, index) => (
-          <div key={index} className="w-full lg:w-1/4 pb-8">
+          <div key={index} className="w-full lg:w-1/4 ">
             <div
               className="hero-background relative"
               style={{
@@ -36,10 +36,10 @@ const Projects = () => {
 
               <div className="relative">
                 {/* Content */}
-                <div className="w-auto flex justify-end h-[600px] ml-28 z-10">
+                <div className="w-auto mr-4 lg:mr-0 flex justify-end h-[600px] ml-28 z-10">
                   <div className="">
-                    <h1 className="text-4xl sm:text-5xl mb-5 text-white">
-                      Project Title {index + 1}
+                    <h1 className="text-4xl sm:text-5xl mb-5   mt-4  text-white">
+                      Project Title
                     </h1>
                     <p className="text-white text md">1st May 2024</p>
                   </div>
