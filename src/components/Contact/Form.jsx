@@ -4,7 +4,7 @@ import React from 'react';
 const Form = () => {
     return (
         <div className="absolute lg:left-28 w-full lg:bottom-7 p-4 max-w-md mx-auto">
-            <form className="bg-white rounded-none px-8 pt-6 pb-8 mb-4 box">
+            <form action='https://getform.io/f/zbxdrqwb' method='post' className="bg-white rounded-none px-8 pt-6 pb-8 mb-4 box">
                 <h2 className="text-[#4273C1] text-2xl title-font font-bold mb-6">
                     Request A Free Quote
                 </h2>

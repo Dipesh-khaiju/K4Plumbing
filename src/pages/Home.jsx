@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <>
       <div className="relative">
-          <Link to="hero" smooth duration={2000}>
-        <div className="backtotop">
+        <Link to="hero" smooth duration={2000}>
+          <div className="backtotop">
             <button className="fixed z-10 bottom-4 right-4 w-12 h-12 bg-gradient-to-br from-green-400 to-cyan-400 flex items-center justify-center rounded-full cursor-pointer border-none group">
               <svg
                 height="1.2em"
@@ -27,11 +27,11 @@ const Home = () => {
                 ></path>
               </svg>
               <p className="text-black text-xs absolute bottom-12 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
-           Go Up
+                Go Up
               </p>
             </button>
-        </div>
-          </Link>
+          </div>
+        </Link>
 
         <HeroSection />
         <About />
