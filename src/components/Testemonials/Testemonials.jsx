@@ -17,10 +17,10 @@ const Testemonials = () => {
       <div className="text-part flex justify-center  items-center w-full lg:w-1/2 p-4">
         <div className="text-center md:text-left">
           <div className="relative">
-            <p className="text-blue-700 text-xl mb-2">What Our Clients Say</p>
+            <p className="text-[#4474C1] text-xl mb-2">What Our Clients Say</p>
             <div className="absolute hidden md:block top-4 left-48 transform -translate-y-1/2 w-16 h-[3px] bg-blue-300"></div>
           </div>
-          <h1 className="sm:text-7xl text-5xl font-bold mb-6 text-blue-700">
+          <h1 className="sm:text-7xl text-5xl font-bold mb-6 text-[#4474C1]">
             Client's Testemonials
           </h1>
           <h3 className="mb-6 text-xl">
@@ -105,12 +105,12 @@ const Testemonials = () => {
                       <h3 className="text-xl pb-4 absolute right-4 bottom-4 text-white">
                         - John F.Kennedy
                       </h3>{" "}
-                      <div class="absolute top-0 left-0 w-2.5 h-48 bg-sky-400"></div>
+                      <div class="absolute top-0 left-0 w-2.5 h-48 bg-[#34D6FF]"></div>
                     </div>
                     <img
                       alt="testimonial"
                       src={man}
-                      className="md:w-44 absolute  md:h-44 h-24 w-24 left-[-45px] bottom-[-45px] border-sky-400 border-8 rounded-full flex-shrink-0 object-cover object-center"
+                      className="md:w-44 absolute  md:h-44 h-24 w-24 left-[-45px] bottom-[-45px] border-[#34D6FF] border-8 rounded-full flex-shrink-0 object-cover object-center"
                     />
                   </div>
                 </div>
@@ -178,7 +178,7 @@ const Testemonials = () => {
                       <h3 className="text-xl pb-4 absolute right-4 bottom-4 text-white">
                         - John F.Kennedy
                       </h3>{" "}
-                      <div class="absolute top-0 left-0 w-2.5 h-48 bg-sky-400"></div>
+                      <div class="absolute top-0 left-0 w-2.5 h-48 bg-[#34D6FF]"></div>
                     </div>
                     <img
                       alt="testimonial"
@@ -251,7 +251,7 @@ const Testemonials = () => {
                       <h3 className="text-xl pb-4 absolute right-4 bottom-4 text-white">
                         - John F.Kennedy
                       </h3>{" "}
-                      <div class="absolute top-0 left-0 w-2.5 h-48 bg-sky-400"></div>
+                      <div class="absolute top-0 left-0 w-2.5 h-48 bg-[#34D6FF]"></div>
                     </div>
                     <img
                       alt="testimonial"

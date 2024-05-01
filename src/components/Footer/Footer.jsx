@@ -3,10 +3,13 @@ import { FaMapMarkedAlt } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 import { IoMail } from "react-icons/io5";
 import { LuClock } from "react-icons/lu";
+import { TiSocialFacebook } from "react-icons/ti";
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer class="text-gray-600 bg-blue-400 body-font">
+    <footer class="text-gray-600 bg-[#4273C1] body-font">
       <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div class="w-64 flex-shrink-0 md:mx-0 mx-auto bg-white px-10 py-6  text-center md:text-left">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
@@ -38,149 +41,130 @@ const Footer = () => {
                 </g>{" "}
               </g>
             </svg>
-            <span class="ml-3 text-blue-600 font-bold text-2xl">K4Plumbing</span>
+            <span class="ml-3 text-[#046BFD] font-bold text-2xl">
+              K4Plumbing
+            </span>
           </a>
           <p class="mt-2 text-md text-black">
-           Locally owned and operated company with 20 years of industry experience. We value honesty and integrity in all aspects of out business
+            Locally owned and operated company with 20 years of industry
+            experience. We value honesty and integrity in all aspects of out
+            business
           </p>
         </div>
         <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-        
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="text-sky-300 text-2xl tracking-widest font-bold mb-3">
-             Quick Links
+            <h2 class="text-[#34D6FF]  text-2xl tracking-widest font-bold mb-3">
+              Quick Links
             </h2>
             <nav class="list-none g mb-10">
               <li className="mb-2">
-                <a class="text-white  text-[18px] hover:text-gray-800">About Us</a>
+                <a class="text-white  text-[18px] hover:text-gray-800">
+                  About Us
+                </a>
               </li>
               <li className="mb-2">
-                <a class="text-white  text-[18px] hover:text-gray-800">Portfolio</a>
+                <a class="text-white  text-[18px] hover:text-gray-800">
+                  Portfolio
+                </a>
               </li>
               <li className="mb-2">
-                <a class="text-white  text-[18px] hover:text-gray-800">Testemonials</a>
+                <a class="text-white  text-[18px] hover:text-gray-800">
+                  Testemonials
+                </a>
               </li>
               <li className="mb-2">
-                <a class="text-white  text-[18px] hover:text-gray-800">Services</a>
+                <a class="text-white  text-[18px] hover:text-gray-800">
+                  Services
+                </a>
               </li>
               <li className="mb-2">
-                <a class="text-white  text-[18px] hover:text-gray-800">Contact</a>
+                <a class="text-white  text-[18px] hover:text-gray-800">
+                  Contact
+                </a>
               </li>
             </nav>
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="text-sky-300 text-2xl tracking-widest font-bold mb-3">
-            Get In Touch
+            <h2 class="text-[#34D6FF]  text-2xl tracking-widest font-bold mb-3">
+              Get In Touch
             </h2>
             <nav class="list-none g mb-10">
               <li className="mb-2">
-                <a class="text-white  text-[18px] hover:text-gray-800">Facebook</a>
+                <a class="text-white  text-[18px] hover:text-gray-800">
+                  Facebook
+                </a>
               </li>
               <li className="mb-2">
-                <a class="text-white  text-[18px] hover:text-gray-800">Instagram</a>
+                <a class="text-white  text-[18px] hover:text-gray-800">
+                  Instagram
+                </a>
               </li>
               <li className="mb-2">
-                <a class="text-white  text-[18px] hover:text-gray-800">Youtube</a>
+                <a class="text-white  text-[18px] hover:text-gray-800">
+                  Youtube
+                </a>
               </li>
               <li className="mb-2">
-                <a class="text-white  text-[18px] hover:text-gray-800">Twitter</a>
+                <a class="text-white  text-[18px] hover:text-gray-800">
+                  Twitter
+                </a>
               </li>
               <li className="mb-2">
-                <a class="text-white  text-[18px] hover:text-gray-800">LinkedIn</a>
+                <a class="text-white  text-[18px] hover:text-gray-800">
+                  LinkedIn
+                </a>
               </li>
             </nav>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="text-sky-300 text-2xl tracking-widest font-bold mb-3">
-           Basic Info
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4 flex flex-col items-center">
+            <h2 class="text-[#34D6FF]  text-2xl tracking-widest font-bold mb-3">
+              Basic Info
             </h2>
-            <nav class="list-none g mb-10">
-              <li className="mb-2">
-                <a class="text-white flex  gap-3  text-[18px] hover:text-gray-800"><FaMapMarkedAlt className=""/>LaPorte,IN 4545354</a>
+            <nav class="list-none g mb-10 flex flex-col items-center">
+              <li class="mb-2 flex items-center">
+                <FaMapMarkedAlt className="text-white" />
+                <span class="ml-3 text-white text-[18px] hover:text-gray-800">
+                  LaPorte,IN 4545354
+                </span>
               </li>
-              <li className="mb-2">
-                <a class="text-white flex  gap-3  text-[18px] hover:text-gray-800"><IoCall />+977 9861488886</a>
+              <li class="mb-2 flex items-center">
+                <IoCall className="text-white" />
+                <span class="ml-3 text-white text-[18px] hover:text-gray-800">
+                  +977 9861488886
+                </span>
               </li>
-              <li className="mb-2">
-                <a class="text-white flex  gap-3 text-[18px] hover:text-gray-800"><IoMail />k4plumbing@gmail.com</a>
+              <li class="mb-2 flex items-center">
+                <IoMail className="text-white" />
+                <span class="ml-3 text-white text-[18px] hover:text-gray-800">
+                  k4plumbing@gmail.com
+                </span>
               </li>
-              <li className="mb-2">
-                <a class="text-white flex gap-3 text-[18px] hover:text-gray-800"><LuClock /> Mon-Fri: 9 AM - 5 PM</a>
+              <li class="mb-2 flex items-center">
+                <LuClock className="text-white" />
+                <span class="ml-3 text-white text-[18px] hover:text-gray-800">
+                  Mon-Fri: 9 AM - 5 PM
+                </span>
               </li>
-          
             </nav>
           </div>
-      
         </div>
       </div>
-      <div class="bg-gray-100">
+      <div class="bg-[#24437C]">
         <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p class="text-gray-500 text-sm text-center sm:text-left">
-            © 2020 Tailblocks —
-            <a
-              href="https://twitter.com/knyttneve"
-              rel="noopener noreferrer"
-              class="text-gray-600 ml-1"
-              target="_blank"
-            >
-              @knyttneve
-            </a>
+          <p class="text-white text-sm text-center sm:text-left">
+            Copyright © 2024 - All rights reserved.Designed By <span className="border-b-2 border-white">Dipesh Khaiju.</span> 
+          
           </p>
-          <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <a class="text-gray-500">
-              <svg
-                fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-              </svg>
+          <span class="inline-flex sm:ml-auto cursor-pointer sm:mt-0 mt-2 justify-center sm:justify-start">
+            <a class=" text-white border-2 rounded-full p-2 border-white">
+             <TiSocialFacebook size={15}/>
             </a>
-            <a class="ml-3 text-gray-500">
-              <svg
-                fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-              </svg>
+            
+            <a class="ml-3 border-2 rounded-full p-2 border-white text-white">
+              <IoLogoInstagram size={15} />
             </a>
-            <a class="ml-3 text-gray-500">
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-500">
-              <svg
-                fill="currentColor"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="0"
-                class="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke="none"
-                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
-                ></path>
-                <circle cx="4" cy="4" r="2" stroke="none"></circle>
-              </svg>
+            <a class="ml-3 border-2 rounded-full p-2 border-white text-white">
+              <FaTwitter size={15}/>
             </a>
           </span>
         </div>

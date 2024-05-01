@@ -14,12 +14,12 @@ const Navbar = () => {
     {
       id: 1,
       name: "Home",
-      target:"home"
+      target:"hero"
     },
     {
       id: 2,
       name: "About",
-      target:"About"
+      target:"about"
     },
     {
       id: 3,
@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
  
     <>
-    <div  className="flex justify-between items-center w-full h-20  px-4  font-serif bg-transparent">
+    <div  className="flex justify-between items-center w-full h-20   px-12  font-serif bg-transparent">
         <h1 className="text-4xl text-[#f9fafb]"> K4Plumbing</h1>
 
         <ul className=" hidden  sm:flex">
@@ -58,10 +58,10 @@ const Navbar = () => {
         <div onClick={()=>setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 sm:hidden">
            {
             nav ?
-            ( <FaTimes size={30} />):(<FaBars size={30}/>)
+            ( <FaTimes className='text-white' size={30} />):(<FaBars className='text-white' size={30}/>)
            }
         </div>
-        {nav?  <ul className="flex text-gray-500 flex-col justify-center items-center absolute w-full h-screen top-0 left-0 bg-gradient-to-b from-black to-gray-500"> 
+        {nav?  <ul className="flex text-white flex-col justify-center items-center absolute w-full h-screen top-0 opacity-90 left-0 bg-sky-400"> 
          {links.map(({ id, name,target}) => (
           <li key={id} className="px-4 cursor-pointer capitalize py-6 text-3xl"><Link to={target}onClick={()=>setNav(!nav)} smooth duration={500}> {name}</Link></li>
           ))}

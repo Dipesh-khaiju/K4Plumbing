@@ -6,7 +6,7 @@ import leftImg2 from "../../assets/images/p3.jpg"
 
 const About = () => {
   return (
-    <div className="flex flex-col lg:flex-row lg:mt-48">
+    <div name="about" className="flex flex-col lg:flex-row lg:mt-48">
       <div className="lg:w-1/2 relative flex flex-col justify-end p-8 md:p-16">
         <img className="h-auto md:h-[500px] w-full border-8 border-white" src={leftImg1} alt="Water Treatment Process" />
         <div className="absolute right-8 bottom-2 hidden md:block">
@@ -25,9 +25,9 @@ const About = () => {
         <div className="relative z-10">
           <div className="relative">
             <h2 className="text-2xl text-blue-400">About Our Company</h2>
-            <div className="absolute top-5 left-56 transform -translate-y-1/2 w-16 h-[3px] bg-blue-400"></div>
+            <div className="absolute top-5 left-56 transform -translate-y-1/2 w-16 h-[3px] bg-[#21D3FF]"></div>
           </div>
-          <h1 className="text-6xl mb-6 text-blue-700 font-bold">
+          <h1 className="text-6xl mb-6 text-[#4273C1] font-bold">
             K4Plumbing LLC
           </h1>
           <p className="mb-10 text-md text-gray-700">
@@ -43,7 +43,7 @@ const About = () => {
             building lasting relationships with our clients and guarantee your
             satisfaction!
           </p>
-          <button className="btn rounded-none bg-blue-700 px-10 hover:bg-slate-500 text-white mb-20">
+          <button className="btn rounded-none bg-[#4273C1] px-10 hover:bg-slate-500 text-white mb-20">
             Read More <FaArrowRight />
           </button>
         </div>

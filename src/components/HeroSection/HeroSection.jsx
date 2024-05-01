@@ -3,10 +3,11 @@ import Navbar from "../Navbar/Navbar";
 import backgroundImage from "../../assets/images/plumbing-home.jpg";
 import { FaArrowRight } from "react-icons/fa";
 import Plumbing from "../../assets/images/PLUMBING.jpg";
+import { ReactTyped } from "react-typed";
 
 const HeroSection = () => {
   return (
-    <div className="hero-container h-screen  mb-16">
+    <div name="hero" className="hero-container h-screen  mb-16">
       {/* Background image with overlay */}
       <div
         className="hero-background relative"
@@ -29,7 +30,7 @@ const HeroSection = () => {
               <h3 className="text-sm pb-4 text-white">
                 Building with Confidence
               </h3>
-              <h1 className="text-4xl sm:text-6xl mb-5 text-blue-400 font-bold">
+              <h1 className="text-4xl sm:text-6xl mb-5 text-[#34D6FF] font-bold">
                 Building <span className="text-white">And</span> Maintaining{" "}
                 <span className="text-white">Your Dreams</span>
               </h1>
@@ -37,7 +38,7 @@ const HeroSection = () => {
                 Fast, Friendly home repair service done right for the first time
               </p>
 
-              <button className="btn rounded-none bg-white px-10 text-blue-600 mb-20">
+              <button className="btn rounded-none bg-white px-10 text-[#577DC1] mb-20">
                 Explore More <FaArrowRight />
               </button>
             </div>
@@ -55,8 +56,18 @@ const HeroSection = () => {
       </div>
 
       {/* Experience section */}
-      <div className="h-36 flex items-center sm:pl-28 pl-5 bg-blue-400 z-10">
-        <p className="text-5xl font-bold text-white">20+ Years of Experience</p>
+      <div className="h-36 flex items-center sm:pl-28 pl-5 bg-[#34D6FF] z-10">
+        <p className="text-5xl font-bold text-white">
+          20+
+          <ReactTyped
+            strings={["Years of Experience"]}
+            typeSpeed={150}
+            loop
+            backSpeed={20}
+            cursorChar="_"
+            showCursor={true}
+          />
+        </p>
       </div>
     </div>
   );
