@@ -15,7 +15,7 @@ const About = () => {
       </div>
 
       <div className="lg:w-1/2 p-4 relative">
-        <div className="absolute inset-0" style={{
+        <div className="absolute inset-0 " style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",

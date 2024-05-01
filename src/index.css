@@ -9,7 +9,7 @@
     background: linear-gradient(to right, hsl(237, 66%, 62%) 0, hsl(0, 0%, 100%) 10%, hsl(215, 67%, 54%) 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: shine 2s infinite linear;
+    animation: shine 3s infinite linear;
   }
   
   @keyframes shine {
@@ -21,6 +21,30 @@
     }
     100% {
       background-position: 600px;
+    }
+  }
+  .backtotop .btn {
+    z-index: 10; 
+  }
+  .backtotop .Btn:hover .text {
+    opacity: 1;
+    transition-duration: .6s;
+   
+  }
+  
+  .backtotop .Btn:hover .arrow {
+    animation: slide-in-bottom .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(10px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
     }
   }
  
