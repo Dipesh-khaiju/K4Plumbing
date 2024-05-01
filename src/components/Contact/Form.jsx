@@ -3,7 +3,7 @@ import React from 'react';
 
 const Form = () => {
     return (
-        <div className="absolute left-28 w-full bottom-7 max-w-md mx-auto">
+        <div className="absolute lg:left-28 w-full lg:bottom-7 p-4 max-w-md mx-auto">
             <form className="bg-white rounded-none px-8 pt-6 pb-8 mb-4 box">
                 <h2 className="text-blue-700 text-2xl title-font font-bold mb-6">
                     Request A Free Quote
