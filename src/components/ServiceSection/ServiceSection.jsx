@@ -9,7 +9,7 @@ const ServiceSection = () => {
             <p className="text-[#4474C1] mb-2">What we are offering</p>
             <div className="absolute top-4 left-40 transform -translate-y-1/2 w-16 h-[2px] bg-blue-300"></div>
           </div>
-          <h1 className="sm:text-6xl text-4xl font-bold mb-4 text-[#4474C1] ">
+          <h1 className="title sm:text-6xl text-4xl font-bold mb-4 text-[#4474C1]">
             Our Services
           </h1>
           <h3 className="mb-6">

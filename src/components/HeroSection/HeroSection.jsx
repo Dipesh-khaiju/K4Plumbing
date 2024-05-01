@@ -27,7 +27,7 @@ const HeroSection = () => {
           {/* Content */}
           <div className="w-1/3 flex justify-center items-center h-full ml-28 z-10">
             <div className="md:pt-52 pt-20">
-              <h3 className="text-sm pb-4 text-white">
+              <h3 className="text-md pb-4 text-white">
                 Building with Confidence
               </h3>
               <h1 className="text-4xl sm:text-6xl mb-5 text-[#34D6FF] font-bold">
@@ -35,7 +35,7 @@ const HeroSection = () => {
                 <span className="text-white">Your Dreams</span>
               </h1>
               <p className="text-sm mb-4 text-white">
-                Fast, Friendly home repair service done right for the first time
+                Fast, Friendly home repair service done right for the first time.
               </p>
 
               <button className="btn rounded-none bg-white px-10 text-[#577DC1] mb-20">

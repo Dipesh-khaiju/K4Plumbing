@@ -20,7 +20,7 @@ const Testemonials = () => {
             <p className="text-[#4474C1] text-xl mb-2">What Our Clients Say</p>
             <div className="absolute hidden md:block top-4 left-48 transform -translate-y-1/2 w-16 h-[3px] bg-blue-300"></div>
           </div>
-          <h1 className="sm:text-7xl text-5xl font-bold mb-6 text-[#4474C1]">
+          <h1 className="title sm:text-7xl text-5xl font-bold mb-6 text-[#4474C1]">
             Client's Testemonials
           </h1>
           <h3 className="mb-6 text-xl">

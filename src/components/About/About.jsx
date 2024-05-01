@@ -27,7 +27,7 @@ const About = () => {
             <h2 className="text-2xl text-blue-400">About Our Company</h2>
             <div className="absolute top-5 left-56 transform -translate-y-1/2 w-16 h-[3px] bg-[#21D3FF]"></div>
           </div>
-          <h1 className="text-6xl mb-6 text-[#4273C1] font-bold">
+          <h1 className="title text-6xl mb-6 text-[#4273C1] font-bold">
             K4Plumbing LLC
           </h1>
           <p className="mb-10 text-md text-gray-700">

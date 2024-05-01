@@ -12,7 +12,7 @@ const Projects = () => {
           <p className="text-[#4474C1] text-xl mb-2">Honorable Mentions</p>
           <div className="absolute hidden md:block top-4 right-36 transform -translate-y-1/2 w-16 h-[3px] bg-blue-300"></div>
         </div>
-        <h1 className="sm:text-7xl text-4xl font-bold mb-6 text-[#4474C1]">
+        <h1 className="title sm:text-7xl text-4xl font-bold mb-6 text-[#4474C1]">
           Featured Products
         </h1>
         <h3 className="mb-6 text-xl">
