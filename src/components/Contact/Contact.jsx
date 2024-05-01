@@ -23,8 +23,8 @@ const Contact = () => {
           {/* Content */}
           <div className="flex flex-col gap-1 mx-4 justify-center items-center py-10">
             <div className="flex items-center gap-3">
-              <span className="text-sky-900">Have some work for us? </span>
-              <div className="hidden md:block transform-translate-y-1/2 w-16 h-[3px] bg-sky-400"></div>
+              <span className="text-[#33DEFF]">Have some work for us? </span>
+              <div className="hidden md:block transform-translate-y-1/2 w-16 h-[3px] bg-[#33DEFF]"></div>
             </div>
             <h1 className="text-white text-4xl sm:text-6xl mb-5 font-bold">
               Request A Quote Today
@@ -41,7 +41,7 @@ const Contact = () => {
       {/* Text-right section */}
       <div className="right-text lg:block hidden md:w-1/2 lg:w-1/3 lg:absolute lg:right-80 flex-col justify-center items-start p-10 overflow-y-auto max-h-[calc(100vh-4rem)]">
         <div className="relative">
-          <p className="text-[#4474C1]">Visit Our Office</p>
+          <p className="text-[#9DE3FF]">Visit Our Office</p>
           <div className="absolute top-4 left-40 transform -translate-y-1/2 w-16 h-[2px] bg-blue-300"></div>
         </div>
         <h1 className="title text-4xl font-bold mb-4 text-[#4474C1]">
@@ -70,7 +70,7 @@ const Contact = () => {
         </p>
 
         <div className="mt-6">
-          <h1 className="text-2xl font-bold text-blue-700 mb-4">Area Covered</h1>
+          <h1 className="text-2xl font-bold text-[#4273C1] mb-4">Area Covered</h1>
           <p className="text-md text-gray-700">LaPorte counties</p>
           <p className="text-md text-gray-700">Porter counties</p>
           <p className="text-md text-gray-700">Michigan City</p>
