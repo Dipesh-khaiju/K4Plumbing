@@ -47,4 +47,7 @@
       opacity: 1;
     }
   }
+  .box {
+    box-shadow: 8px 8px 0 0 rgb(187, 238, 248);
+}
  

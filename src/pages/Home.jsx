@@ -7,6 +7,7 @@ import Testemonials from "../components/Testemonials/Testemonials";
 import Footer from "../components/Footer/Footer";
 import { FaArrowUp } from "react-icons/fa";
 import { Link } from "react-scroll";
+import Contact from "../components/Contact/Contact";
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
         <ServiceSection />
         <Projects />
         <Testemonials />
+        <Contact />
         <Footer />
       </div>
     </>
